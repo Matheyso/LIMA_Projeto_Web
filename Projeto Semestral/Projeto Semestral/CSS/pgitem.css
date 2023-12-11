@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=EB+Garamond&display=swap');
+body{
+  background-color:darkblue;
+  height: 1300px;
+  width: 1200px;
+}
+
+footer{
+  background-color: rgb(255, 255, 255);
+  margin-top: 40px;
+  height:400px;
+  width: 1480px;
+  margin-left: -8.5px;
+}
+.search input[type=text]{
+  font-family:'inter';
+   width:450px;
+   height:30px;
+   margin-left: 200px;
+   border-radius:15px;
+   border:solid  darkslateblue;
+}
+
+.butao{
+  color: white;
+  background-color:midnightblue;
+  border-radius: 60px;
+}
+.search{
+ background-color:white;
+ height: 80px;
+ width: 1480.5px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start ;
+   align-items: center;
+   margin-left: -8px;
+   margin-top: -10px;
+   border-bottom: 30px solid indigo;
+}
+.search2{
+ background-color:white;
+ height: 38px;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   margin-right: -10px;
+   margin-left: -8px;
+}
+.produtos{
+  background-color:mediumslateblue; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.produtos:hover {
+  background-color:indigo;
+  color: mediumslateblue;
+}
+.Ofertasdodia{
+  background-color:mediumslateblue; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.Ofertasdodia:hover {
+  background-color: indigo;
+  color: mediumslateblue;
+}
+.Maisvendidos{
+    background-color:mediumslateblue; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 140px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .Maisvendidos:hover {
+    background-color: indigo;
+    color: mediumslateblue;
+  }
+/* Categorias */
+  .dropbtn2{
+    background-color:mediumslateblue;
+    color: white;
+    padding: 10px 140px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown2{
+    position: absolute;
+    display: inline-block;
+    left: 1123px;
+  }
+  .dropdown-content2{
+    display: none;
+    position: relative;
+    background-color:rgba(204, 0, 255, 0.504);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+ }
+ 
+  .dropdown-content2 a:hover {background-color:indigo}
+ 
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+  }
+  .dropdown2:hover .dropbtn2 {
+    background-color: indigo;
+  }
+  .textocategorias{
+    font-family:'Lora';
+  }
+/* fim das categorias */
+.logo{
+  position: absolute;
+  right:1325px;
+  top:19px;
+  height: 70px;
+}
+.info{
+  position: absolute;
+  font-family:'Castoro Titling';
+  font-size:large;
+  right:450px;
+  top:12px;
+  height: 40px;
+}
+.sup{
+  position: absolute;
+  font-family:'Castoro Titling';
+  font-size:large;  
+  right: 300px;
+  top:12px;
+  height: 59px;
+}
+.off{
+  position: absolute;
+  font-family:'Castoro Titling';
+  font-size:large;  
+  right: 610px;
+  top:12px;
+  height: 59px;
+}
+.textorodapecabecalho{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+}
+.menuimg{
+  position: absolute;
+  left:150px;
+  top:-1px;
+  align-items: center;
+  height: 90px;
+}
+.dropbtn{
+  position: absolute;
+  background-color:none;
+  color: black;
+  top: -26px;
+  left:480px;
+  font-size: 20px;
+  border: none;
+}
+.dropdown{
+  position: absolute;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color:indigo;
+  top: 50px;
+  left:560px;
+  min-width: 150px;
+  box-shadow: 0px 0px 16px 0px rgba(138, 138, 138, 0.2);
+  z-index: 1;
+}
+.dropdown-content a{
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover{
+  background-color:rgba(204, 0, 255, 0.504);
+}
+.dropdown:hover .dropbtn{
+  background-color: whitesmoke  ;
+}
+.dropdown:hover .dropdown-content{
+ display:block;
+}
+
+/* Artigos */
+
+.containercategorias{
+  position: relative;
+   background-color:whitesmoke;
+   height:1025px;
+   width:270px;
+   margin-right: -10px;
+   margin-left: -8px;
+   margin-top:1px;
+}
+.destaquestext1{
+ position: absolute;
+ border: 20px solid mediumslateblue;
+ background-color:mediumslateblue;
+ font-family:'IM+Fell+Great+Primer&family';
+ font-size: x-large;
+ height: 20px;
+ width:235.5px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.Destaques1{
+ border: 10px;
+}
+.destaquestext2{
+ position: absolute;
+ border: 20px solid mediumslateblue;
+ background-color:mediumslateblue;
+ font-family:'IM+Fell+Great+Primer&family';
+ font-size: x-large;
+ height: 20px;
+ width:235.5px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.Artigos{
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+ background-color:whitesmoke;
+ top: 100px;
+ border: none;
+ color: black;
+ padding: 10px 100px;
+ text-align:left;
+ max-width: 270px;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 17px;
+ transition-duration: 0.4s;
+ cursor: pointer;
+}
+.Artigos:hover {
+ background-color: rgb(166, 119, 255);
+ color: rgb(61, 0, 131);
+}
+.Destaques2{
+ position: relative;
+ border: 10px;
+}
+
+/* PGCONTAINERITEM */
+
+.containeritem{
+    background-color: rgb(255, 255, 255);
+    margin-top: -1000px;
+    margin-left: 300px;
+    width: 1100px;
+    height: 1260px;
+}
+.nomeitem{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lora';
+    display: flex;
+    align-items: center;
+    text-align: start;
+    width: 1000px;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+.imgitem{
+    background-color: rgb(255, 255, 255);
+    height: 380px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.rating{
+  position: absolute;
+  top: 320px;
+  left: 500px;
+  transform: translate(-50%,-50%) rotateY(180deg);
+  display: flex;
+}
+
+.rating input{
+  display: none;
+}
+
+.rating label{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+}
+
+.rating label:before{
+  content: '\f005';
+  font-family: fontAwesome;
+  position: relative;
+  display: block;
+  font-size: 50px;
+  color: #0e1316;
+}
+
+.rating label:after{
+  content: '\f005';
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  font-size: 50px;
+  color: #ffff00;
+  top: 0;
+  opacity: 0;
+  transition: .5;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, .5);
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after{
+  opacity: 1;
+}
+.qntde{
+  margin-left: 570px;
+  height: 40px;
+  width: 60px;
+  background-color: rgb(255, 255, 255);
+  transition-duration: 2s;
+}
+.qntde a:hover{
+  background-color: rgb(250, 250, 250);
+}
+.contprecoitem{
+  font-family: 'Lora';
+}
+.precoitem{
+  margin-top:-395px;
+  margin-left: 600px;
+  text-decoration: none;
+  font-size: 50px;
+}
+.comprar{
+  background-color: rgb(169, 97, 211);
+  border-radius: 30px;
+  font-family: 'Lora';
+  font-size: 15px;
+  margin-top: 10px;
+  height: 50px;
+  width: 180px;
+  cursor:pointer;
+  transition-duration: 0.4s;
+  display: inline-block;
+  text-decoration: none;
+}
+.comprar :hover{
+  background-color: rgb(38, 0, 100);
+  color: brown;
+}
+.adccarrinho{
+  background-color: rgb(34, 0, 128);
+  border-radius: 30px;
+  font-family: 'Lora';
+  font-size: 15px;
+  margin-top:25px;
+  margin-left: 640px;
+  height: 50px;
+  width: 180px;
+  cursor:pointer;
+}
+.adccarrinho :hover{
+  background-color: rgb(18, 0, 100);
+}
+.containeradc{
+  border: solid rgb(189, 189, 189);
+  height:550.5px;
+  margin-top:270px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.txtadc{
+  position: absolute;
+  margin-top: -260px;
+  margin-left:40px;
+  font-family: 'Lora';
+}
+.imgadc1{
+  height: 350px;
+}
+.imgadc2{
+  height: 350px;
+}
+.imgadc3{
+  height: 350px;
+}
+.txtadc1{
+ font-family: 'Lora';
+ font-size:x-large;
+ margin-left: 45px;
+}
+.txtadc2{
+  font-family: 'Lora';
+  font-size:x-large;
+  margin-left: 90px;
+}
+.txtadc3{
+  font-family: 'Lora';
+  font-size:x-large;
+
+}
+/* RODAPÉ */
+
+.rodape{
+    position: relative;
+  }
+  .libertonrodape{
+    border: solid black 4px;
+    color: black;
+    font-size: x-large;
+    font-family:'Lora' ;
+    margin-top: 5px;
+    height: 100px;
+    width: 1473px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .recebaofertas{
+    margin-top: -1px;
+    margin-left:100px;
+  }
+  .emailofertas{
+    position: relative;
+    background-color: rgb(233, 233, 233);
+    height: 36px;
+    width:300px;
+    margin-top:-75px;
+    margin-left:420px;
+  }
+  .emailofertasnome{
+    position: relative;
+    background-color: rgb(233, 233, 233);
+    height: 36px;
+    width:300px;
+    margin-top:-42px;
+    margin-left:900px;
+  }
+  .emailofertas input[type=text]{
+    font-family:'inter';
+     width:650px;
+     height:30px;
+     margin-left: 200px;
+     border-radius:15px;
+     border:solid  darkslateblue;
+  }
+  .imgrodape{
+    height: 110px;
+    margin-top:10px;
+    margin-left:580px;
+  }
+  .direitosreservados{
+    margin-top:100px;
+    margin-left: 580px;
+    color:black;
+  }
+  .Nome{
+    position: absolute;
+    left:300px
+  }
+  .Email{
+    position: absolute;
+    left:800px
+  }
+  .Enviar{
+    position: absolute;
+    background-color: rgb(25, 0, 117);
+    color: white;
+    border-radius: 10px;
+    font-size: x-large;
+    font-family:'Lora';
+    margin-left: 1250px;
+    height: 75px;
+    width: 200px;
+    cursor: pointer;
+  }
+  .Enviar:hover{
+    background-color: black;
+  }
